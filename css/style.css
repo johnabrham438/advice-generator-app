@@ -26,7 +26,7 @@ body{
     justify-content: center;
     text-align: center;
     align-items: center;
-    border-radius: 15px;
+    border-radius: 12px;
     width: 90%;
     padding: 2rem;
     max-width: 300px;
@@ -38,11 +38,12 @@ body{
     font-size: 1rem;
     word-spacing: .1rem;
     letter-spacing: 4px;
+    font-weight: 700;
 }
 .advice__text{
     font-size: 1.5rem;
     margin: 1rem 0;
-    font-weight: 700;
+    font-weight: 800;
 }
 picture img{
     width: 100%;
@@ -68,10 +69,10 @@ picture img{
 @media (min-width: 768px) {
   .advice__card {
     padding: 3rem;
-    max-width: 400px;
+    max-width: 430px;
   }
 
-  #advice__text {
-    font-size: 1.8rem;
+  .advice__text {
+    font-size: 1.6rem;
   }
 }
